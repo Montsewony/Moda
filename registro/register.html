@@ -10,10 +10,6 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <style>
-	label{
-		border-color: black;
-		color: azure;
-	}
 	p{
 		color: black;
 	}
@@ -25,10 +21,10 @@
 <br> <br>				
 				<div class="panel-body">
 						<div class="row">
-							<div class="col-md-4 col-md-offset-4">
-								<form id="login-form" method="post" role="form" style="display: block;">
+							<div class="col-md-4 col-md-offset-4 text-center">
+								<form id="login-form" method="post" role="form" style="display: block;" >
 									<div class="form-group">
-										<label for="email">Correo electrónico: </label>
+										<label for="email">Correo electrónico </label>
 										<input type="email" class="form-control" id="email" placeholder="ernesto14@longbit.mx">
 									  </div>
 									<div class="form-group">
@@ -50,41 +46,18 @@
 									<br>
 										<div class="form-group">
 										<div class="row">
-											<div class="col-sm-6 col-sm-offset-3">
+											<div class="col-sm-4 col-sm-offset-4">
 												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Ingresar">
 											</div>
 										</div>
 									</div>
 									
 								</form>
-								<form id="register-form" action="" method="post" role="form" style="display: none;">
-									<div class="form-group">
-										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Usuario" value="">
-									</div>
-									<div class="form-group">
-										<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Correo electronico" value="">
-									</div>
-									<div class="form-group">
-										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Contraseña">
-									</div>
-									<div class="form-group">
-										<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirmar contraseña">
-									</div>
-									<div class="form-group">
-										<div class="row">
-											<div class="col-sm-6 col-sm-offset-3">
-												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Crear cuenta">
-											</div>
-										</div>
-									</div>
-								</form>
+								
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+
 	<script src="/registro/js.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/jquery-1.11.2.min.js"></script>
