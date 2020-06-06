@@ -1,0 +1,11 @@
+.izquierda {
+    float: left;
+    width:"300";
+    height: "300";
+  }
+  
+.derecha {
+    float: right;
+    width:"300";
+    height: "300";
+  }
