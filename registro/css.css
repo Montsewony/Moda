@@ -2,23 +2,25 @@ body {
 	padding-top: 90px;
 	background-size:100% 100%;
 	
+	
+}
+label{
+	color: white;
 }
 
 .panel-login {
-	border-color: #ccc;
+	opacity: 0;
 	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
 }
 .panel-login>.panel-heading {
 	color: #00415d;
-	background-color: #fff;
-	border-color: #fff;
+	background-color: transparent;
 	text-align:center;
 }
 .panel-login>.panel-heading a{
 	text-decoration: none;
-	color: #666;
 	font-weight: bold;
 	font-size: 15px;
 	-webkit-transition: all 0.1s linear;
@@ -28,6 +30,7 @@ body {
 .panel-login>.panel-heading a.active{
 	color: #029f5b;
 	font-size: 18px;
+	background-color: transparent;
 }
 .panel-login>.panel-heading hr{
 	margin-top: 10px;
@@ -42,7 +45,7 @@ body {
 }
 .panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
 	height: 45px;
-	border: 1px solid #ddd;
+	border: 1px transparent;
 	font-size: 16px;
 	-webkit-transition: all 0.1s linear;
 	-moz-transition: all 0.1s linear;
@@ -54,7 +57,8 @@ body {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	border-color: #ccc;
+	border-color: transparent;
+	background-color: transparent;
 }
 .btn-login {
 	background-color: rgb(27, 40, 46);
@@ -67,21 +71,7 @@ body {
 	text-transform: uppercase;
 	border-color: #59B2E6;
 }
-.btn-login:hover,
-.btn-login:focus {
-	color: #fff;
-	background-color: #53A3CD;
-	border-color: #53A3CD;
-}
-.forgot-password {
-	text-decoration: underline;
-	color: #888;
-}
-.forgot-password:hover,
-.forgot-password:focus {
-	text-decoration: underline;
-	color: #666;
-}
+
 
 .btn-register {
 	background-color: #1CB94E;
@@ -110,5 +100,6 @@ body {
   
   .container{
     padding-top:50px;
-    margin: auto;
+	margin: auto;
+	background-color: transparent;
   }

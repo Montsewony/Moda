@@ -9,28 +9,23 @@
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<style>
+	label{
+		border-color: black;
+		color: azure;
+	}
+	p{
+		color: black;
+	}
+</style>
 </head>
 
 <body background="ropa1.jpg" alt="ropa">
 
-<!------ Include the above in your HEAD tag ---------->
-<div class="container">
-	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
-			<div class="panel panel-login">
-				<div class="panel-heading">
-					<div class="row">
-						<div class="col-xs-6">
-							<a href="#" class="active" id="login-form-link"></a>
-						</div>
-						<div class="col-xs-6">
-							<a href="#" id="register-form-link"></a>
-						</div>
-					</div>
-					<hr>
-				</div>					<div class="panel-body">
+<br> <br>				
+				<div class="panel-body">
 						<div class="row">
-							<div class="col-lg-12">
+							<div class="col-md-4 col-md-offset-4">
 								<form id="login-form" method="post" role="form" style="display: block;">
 									<div class="form-group">
 										<label for="email">Correo electrónico: </label>
@@ -46,9 +41,9 @@
 										<label for="rpassword">Repetir contraseña</label>
 										<input type="rpassword" name="rpassword" id="rpassword" tabindex="2" class="form-control" placeholder="Repetir contraseña">
 									</div>
-									<div class="form-group text-left">
+									<div class="form-group text-center">
 										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
-										<label for="remember">Mantener sesión iniciada</label>
+										<label for="remember"><p>Mantener sesión iniciada</p> </label>
 									</div>
 									<div class="text-center"><a href="" tabindex="5" class="forgot-password">Olvidé mi contraseña</a>
 									</div>
