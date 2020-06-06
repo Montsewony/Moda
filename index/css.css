@@ -1,4 +1,6 @@
+@charset "UTF-8";
 .izquierda {
+    padding: 14px 40px;
     float: left;
     width:"300";
     height: "300";
@@ -9,3 +11,13 @@
     width:"300";
     height: "300";
   }
+
+  button{
+      background-color: black;
+      border-radius: 12px;
+
+  }
+  .btn{
+    background-color: black;
+    border-radius: 12px;
+    }
